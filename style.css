@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    max-height: 100%;
 }
 
 nav {
@@ -51,11 +52,7 @@ input#search {
     height: 40px;
     border-radius: 30px;
     border: 1px solid #dddddd;
-    font-size: 15px;
-    background-image: url("../google-practice/images/download.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    
+    font-size: 15px;    
 }
 
 #search:hover {
@@ -114,8 +111,14 @@ a.nav-right:hover {
     color: black;
 }
 
-
-
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    left: 0;
+    right: 0;
+}
 
 footer p { 
     width: 100%;
@@ -126,4 +129,37 @@ footer p {
     padding-bottom: 15px;
     border: 1px solid #dddddd;
     margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    font-size: 13px;
+    color: #5F6368;
+    text-decoration: none;
+}
+
+div.second-footer {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    border-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+a.footer-nav-left {
+    padding-left: 20px;
+}
+
+div.privacy {
+    float: right;
+    margin-right: 10px;
+}
+
+div a {
+    padding-left: 20px;
 }
