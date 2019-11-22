@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-height: 100%;
+    width: 100%;
+    min-width: 10%;
 }
 
 nav {
@@ -30,6 +31,10 @@ a.sign-in {
     font-weight: bold;
 }
 
+nav a.sign-in:hover {
+    text-decoration: none;
+}
+
 
 
 
@@ -48,11 +53,21 @@ div.search-box {
 }
 
 input#search {
-    width: 500px;
+    width: 450px;
     height: 40px;
     border-radius: 30px;
     border: 1px solid #dddddd;
     font-size: 15px;    
+    background-image: url('/images/download.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 5% center;
+    outline: none; 
+    padding-left: 50px;
+}
+
+form input {
+    text-rendering: auto;
 }
 
 #search:hover {
