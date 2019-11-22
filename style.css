@@ -35,10 +35,7 @@ nav a.sign-in:hover {
     text-decoration: none;
 }
 
-
-
-
-
+/* Main content */
 
 .google-image {
     display: block;
@@ -100,12 +97,6 @@ form input {
 
 }
 
-
-
-
-
-
-
 main {
     text-align: center;
 }
@@ -125,6 +116,8 @@ a.nav-right:hover {
 .google-apps:hover {
     color: black;
 }
+
+/* Footer */
 
 footer {
     position: fixed;
